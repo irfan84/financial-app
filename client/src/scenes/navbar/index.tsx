@@ -6,7 +6,7 @@ import PaymentsIcon from '@mui/icons-material/Payments'
 
 import FlexBetween from '@/components/FlexBetween'
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const { palette } = useTheme()
   const [selected, setSelected] = useState('dashboard')
 
